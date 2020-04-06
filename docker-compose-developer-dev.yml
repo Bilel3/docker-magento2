@@ -3,7 +3,7 @@ services:
   web:
     build: ./developer
     ports:
-      - "80:80"
+      - "8070:80"
     links:
       - db
     volumes: 
